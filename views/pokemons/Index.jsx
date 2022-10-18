@@ -9,7 +9,7 @@ class Index extends React.Component{
 
   
         return(
-            <Default title="Fruits Index Page">
+            <Default title="Pokemon Index Page">
                
                     {
                         pokemons.map((pokemon) => {

@@ -40,7 +40,7 @@ class SingleDefault extends React.Component {
                             <div className="container py-2">
                                 <div className="row pb-4">
                                     <div className="col-12 text-center">
-                                        <div className="display-3">Pokemon!</div>
+                                        <img className='logo' src="https://i.imgur.com/o0xWZ3Z.png" alt="" />
                                             <nav>
                                                 <a href={`/pokemons`}><i className="fa-solid fa-home"></i> Home</a>
                                                 <a href={`/pokemons/new`}><i className="fa-solid fa-square-plus"></i> Create New log</a>

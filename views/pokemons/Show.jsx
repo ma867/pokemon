@@ -19,8 +19,8 @@ class Show extends React.Component {
                 <h5 className="text-capitalize user-name">{capName}</h5>
                 <p className=" text-capitalize  medium "><b>Category: </b><br />{category}</p>
                 
-                <button className="delete"><a href={`/pokemons/${_id}/edit`}><i className="fa-solid fa-pencil"></i> Edit </a></button><br /><br />
-                <button className="delete"><a href={`/pokemons/${_id}`}><i className="fa-solid fa-eye"></i> Details</a></button><br />
+                <a className="delete" href={`/pokemons/${_id}/edit`}><i className="fa-solid fa-pencil"></i>  Edit </a><br />
+                <a className="delete" href={`/pokemons/${_id}`}><i className="fa-solid fa-eye"></i>  Details</a><br />
                 
             </div>
                        

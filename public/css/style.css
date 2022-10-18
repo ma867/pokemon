@@ -1,0 +1,73 @@
+/* ==== Cards using Bootstrap === */
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+body{
+  font-family: 'Quicksand', serif!important;
+}
+.form-control{
+    border: none!important;
+}
+nav a {
+    padding-top: 20px;
+    padding: 20px;
+    color: #1f194c;
+    text-decoration: none;
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+  }
+  nav a:hover {
+    color: rgb(255, 23, 131);
+    text-decoration: none;
+    top: -10px;
+  }
+
+#cards .card {
+    border-radius: 20px;
+    min-height: 100%;
+  background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%)!important;
+  color:#ffffff!important;
+}
+
+#cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+
+#cards .card .user-picture img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: white!important;
+    padding: 10px;
+}
+
+#cards .card .user-content .user-name {
+    padding-top:20px;
+    margin-right: 150px;
+    color:#ffffff!important;
+}
+#cards .card .user-content .user-name a{
+    text-decoration: none;
+    color:#ffffff!important;
+}
+#cards .card .user-content .user-name a:hover{
+    text-shadow: 0 0 35px rgba(255, 255, 255, 1.3);
+}
+.delete{
+   color: #ffffff;
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+}
+.delete:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+}

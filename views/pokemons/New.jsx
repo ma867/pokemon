@@ -7,7 +7,7 @@ class New extends React.Component {
             <Default title="Create A New Pokemon">
             <form method="POST" action="/pokemons">
                 Name: <input className="form-control" type="text" name="name" placeholder='Name of Pokemon Here'></input><br/>
-                Color: <input className="form-control" type="text" name="image" placeholder='Image link of Pokemon Here'></input><br/>
+                Image Link: <input className="form-control" type="text" name="image" placeholder='Image link of Pokemon Here'></input><br/>
                 <label for="category">Category:</label>
                     <select className="form-control" name="category" id="category">
                         <option value="normal">Normal</option>
